@@ -5,9 +5,10 @@ var input1, input2, button, output, inputVal1, inputVal2;
 input1 = document.getElementById('num_one');
 input2 = document.getElementById('num_two');
 button = document.getElementById('calculateBtn');
-button2 = document.getElementById('calculateBtn2')
-button3 = document.getElementById('calculateBtn3')
-button4 = document.getElementById('calculateBtn4')
+button2 = document.getElementById('calculateBtn2');
+button3 = document.getElementById('calculateBtn3');
+button4 = document.getElementById('calculateBtn4');
+button5 = document.getElementById('calculateBtn5');
 output = document.getElementById('answer');
 
 /*	TO DO ITEMS
@@ -51,4 +52,10 @@ button4.onclick = function (){
 	var inputVal1 = input1.value;
 	var inputVal2 = input2.value;
 	output.innerHTML = parseFloat(inputVal1) / parseFloat(inputVal2);
+}
+
+//Clear Button
+
+button5.onclick = function(){
+	input1 = input1.value - input1.value;
 }
