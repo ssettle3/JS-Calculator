@@ -22,6 +22,7 @@ console.log('Input1', input1);
 console.log('Input2', input2);
 console.log('Answer', output);
 
+
 //Adding Portion
 
 button.onclick = function (){
@@ -54,8 +55,12 @@ button4.onclick = function (){
 	output.innerHTML = parseFloat(inputVal1) / parseFloat(inputVal2);
 }
 
+<<<<<<< HEAD
 //Clear Button
 
 button5.onclick = function(){
 	input1 = input1.value - input1.value;
 }
+=======
+
+>>>>>>> master
